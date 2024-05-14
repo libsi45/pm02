@@ -1,0 +1,16 @@
+﻿<Window x:Class="labor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedLab"
+        mc:Ignorable="d"
+        Title="b3" Height="204" Width="218">
+    <Grid HorizontalAlignment="Center" Width="218" Height="185" VerticalAlignment="Bottom" Margin="0,0,0,3">
+        <Button Content="Вернуться на главное окно" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" Width="175" FontFamily="Arial" Click="Button_Click" Height="39"/>
+        <Rectangle HorizontalAlignment="Center" Height="36" Stroke="ForestGreen" VerticalAlignment="Top" Width="216" Fill="#FF4DAD4D"/>
+        <Button Content="Работа с анализатором" HorizontalAlignment="Left" Margin="23,119,0,0" VerticalAlignment="Top" Width="181" FontFamily="Arial" Click="Button_Click_1" Height="44"/>
+        <Label Content="Выберете" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" Width="208"/>
+
+    </Grid>
+</Window>
